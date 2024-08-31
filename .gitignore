@@ -1,0 +1,6 @@
+# Ignoring my env files
+# Created with python3 -m venv roguelikeEnv
+# activate (my shell is fish) with,
+# source roguelikeEnv/bin/activate.fish
+# deactivate, to close
+roguelikeEnv/*
