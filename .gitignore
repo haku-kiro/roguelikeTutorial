@@ -4,3 +4,4 @@
 # source roguelikeEnv/bin/activate.fish
 # deactivate, to close
 roguelikeEnv/*
+__pycache__
