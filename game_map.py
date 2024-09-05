@@ -9,12 +9,9 @@ class GameMap:
         self.width, self.height = width, height
         self.tiles = np.full(
             (width, height),
-            fill_value=tiles_types.floor,
+            fill_value=tiles_types.wall,
             order="F"
         )
-
-        # This is just for demo purposes
-        self.tiles[30:33, 22] = tiles_types.wall
 
     def in_bounds(self, x: int, y: int) -> bool:
         """
